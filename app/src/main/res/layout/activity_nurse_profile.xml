@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:paddingBottom="16dp"
+                android:background="@color/colorAccent">
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/patientuser"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/white"/>
+
+                <com.example.test.medicalreport.util.MedicalTextFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Name"
+                    android:textSize="18sp"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/user_name"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/profile_image"
+                    android:textColor="@color/white"
+                    />
+
+                </RelativeLayout>
+
+
+
+            </FrameLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <com.example.test.medicalreport.util.MedicalEditTextFont
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/text_color"
+                    android:hint="Username"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:id="@+id/name_input"
+                    android:layout_marginBottom="8dp"
+                    android:textColorHint="@color/text_color"/>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="36dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/text_color"/>
+
+                <com.example.test.medicalreport.util.MedicalEditTextFont
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_email_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/text_color"
+                    android:hint="Email"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:id="@+id/email_input"
+                    android:layout_marginBottom="8dp"
+                    android:textColorHint="@color/text_color"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <com.example.test.medicalreport.util.MedicalEditTextFont
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_phone_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/text_color"
+                    android:hint="Phone"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:id="@+id/phone_input"
+                    android:layout_marginBottom="8dp"
+                    android:textColorHint="@color/text_color"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="36dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@color/text_color"/>
+
+                <com.example.test.medicalreport.util.MedicalEditTextFont
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/text_color"
+                    android:hint="Address"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:id="@+id/address_input"
+                    android:layout_marginBottom="8dp"
+                    android:textColorHint="@color/text_color"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <com.example.test.medicalreport.util.MedicalEditTextFont
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/text_color"
+                    android:hint="Age"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:id="@+id/age_input"
+                    android:layout_marginBottom="8dp"
+                    android:textColorHint="@color/text_color"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_height="36dp"
+                    android:background="@color/text_color"/>
+
+                <com.example.test.medicalreport.util.MedicalEditTextFont
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_lock_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/text_color"
+                    android:hint="Password"
+                    android:textSize="14sp"
+                    android:inputType="textPassword"
+                    android:id="@+id/password_input"
+                    android:layout_marginBottom="8dp"
+                    android:textColorHint="@color/text_color"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <com.example.test.medicalreport.util.MedicalEditTextFont
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/text_color"
+                    android:hint="Hospital"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:id="@+id/hospital_input"
+                    android:layout_marginBottom="8dp"
+                    android:textColorHint="@color/text_color"/>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.test.medicalreport.util.MedicalEditTextFont
+        android:id="@+id/doctor_diag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@null"
+        android:gravity="top|left"
+        android:hint="Write your Diagnosis"
+        android:lines="7"
+        android:padding="4dp"
+        android:textColor="@color/text_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/text_color"
+        android:layout_below="@id/doctor_diag"/>
+    <com.example.test.medicalreport.util.MedicalTextFont
+        android:id="@+id/upload_x_rays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctor_diag"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="16dp"
+        android:text="Upload Image1"
+        android:onClick="uploadImage1"
+        android:textColor="@color/colorAccent" />
+
+    <com.example.test.medicalreport.util.MedicalTextFont
+        android:id="@+id/upload_Scans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctor_diag"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:text="Upload Image2"
+        android:onClick="uploadImage2"
+        android:textColor="@color/colorAccent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <com.example.test.medicalreport.util.MedicalButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Edit"
+            android:onClick="uploadData"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <com.example.test.medicalreport.util.MedicalButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Delete"
+            android:onClick="deletePatient"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

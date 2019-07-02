@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <com.example.test.medicalreport.util.MedicalButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="uploadData"
+        android:padding="16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="Submit"
+        android:textSize="18sp" />
+</RelativeLayout>

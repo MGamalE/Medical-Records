@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="doctor name :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="mona saed mohamed"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="nurse name "
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="ibrahim hisham farag"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="patient name :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:id="@+id/patient_name"
+                    android:text="ramy mohamed mohamed"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/text_view_Age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="Age :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/patient_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="21"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="sex :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="male"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="adress :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="el giza el monibe"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:id="@+id/patient_address"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="diagnosis :"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="azma kalbela"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="ssn:"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="297832111823"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:id="@+id/patient_ssn"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="telephone :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:id="@+id/patient_phone"
+                    android:text="01124220250"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="blood :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="o-"
+                    android:id="@+id/patient_blood"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="lenght :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="178 cm"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="weight :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="73 kg"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="viruses :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="virus c"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="member injured :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="heart"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="pressure:"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="yes"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="sugar :"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="yes"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="final diagonisise :"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape"
+                    android:padding="15dp"
+                    android:text="the patiant suffer from Inflammation of the surrounding membranes of the heart "
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/button_pharmaceutical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="pharmaceutical"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/image_view_pharmaceutical"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="720dp"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/button_record"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="image record"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/image_view_record"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="720dp"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/button_rays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="rays"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/image_view_rays"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="720dp"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/button_tests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:padding="5dp"
+                    android:text="tests"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/image_view_tests"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="720dp"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:background="@color/white"
+                android:padding="10dp">
+
+                <Button
+                    android:layout_width="126dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="135dp"
+                    android:background="@drawable/shape"
+                    android:text="download"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

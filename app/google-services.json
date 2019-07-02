@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970123012178",
+    "firebase_url": "https://medicalreport-a5b9d.firebaseio.com",
+    "project_id": "medicalreport-a5b9d",
+    "storage_bucket": "medicalreport-a5b9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970123012178:android:99cb57f06499cc79",
+        "android_client_info": {
+          "package_name": "com.example.test.medicalreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970123012178-8kiqst15eg3fb8bthasr3294kjrsuc7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.test.medicalreport",
+            "certificate_hash": "89c39fe63a9b02229aed959962fc520a103f4e77"
+          }
+        },
+        {
+          "client_id": "970123012178-1mnm4n6avkvt1ord3bls401in917k4j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNepqeSPzB1l9lITJzLjvceboWzTCDi_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970123012178-1mnm4n6avkvt1ord3bls401in917k4j5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

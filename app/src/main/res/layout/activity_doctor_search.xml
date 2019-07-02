@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        android:id="@+id/layout"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:id="@+id/doctor_search_name_input"
+            android:layout_height="wrap_content"
+            android:hint="Add New Doctor"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:id="@+id/doctor_search_button"
+            android:src="@drawable/ic_search_whu_24dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="16dp"
+        android:layout_below="@+id/layout"
+        android:visibility="gone"
+        android:background="@color/colorAccent"
+        android:id="@+id/doctor_item_search_layout"
+        android:orientation="horizontal">
+
+    <com.example.test.medicalreport.util.MedicalTextFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Name"
+        android:textColor="@color/white"
+        android:id="@+id/doctor_search_name"
+        android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Next"
+        android:onClick="openList"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"/>
+</RelativeLayout>
